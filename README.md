@@ -1,13 +1,10 @@
-<h1>🚀 REST Demo Application</h1>
+<h1> REST Demo Application</h1>
 <p>
 A simple Spring Boot REST API demonstrating <b>CRUD operations</b> using an in-memory data store.
 This project manages <b>Cloud Vendor</b> data and is fully testable using <b>Postman</b>.
 </p>
 
-<h2>👤 Author</h2>
-<p><b>Sahil Mayekar</b></p>
-
-<h2>📑 Table of Contents</h2>
+<h2>Table of Contents</h2>
 <ul>
   <li><a href="#overview">Project Overview</a></li>
   <li><a href="#techstack">Tech Stack</a></li>
@@ -22,13 +19,13 @@ This project manages <b>Cloud Vendor</b> data and is fully testable using <b>Pos
 
 <hr>
 
-<h2 id="overview">📌 Project Overview</h2>
+<h2 id="overview"> Project Overview</h2>
 <p>
 This Spring Boot project provides a clean and easy-to-understand REST API for 
 performing <b>Create, Read, Update, Delete</b> operations on Cloud Vendor information.
 </p>
 
-<h2 id="techstack">🛠 Tech Stack</h2>
+<h2 id="techstack"> Tech Stack</h2>
 <ul>
   <li><b>Java 17+</b></li>
   <li><b>Spring Boot</b> (Web)</li>
@@ -36,7 +33,7 @@ performing <b>Create, Read, Update, Delete</b> operations on Cloud Vendor inform
   <li><b>Postman</b> for testing</li>
 </ul>
 
-<h2 id="structure">📁 Folder Structure</h2>
+<h2 id="structure"> Folder Structure</h2>
 <pre>
 src/main/java/com/thinkconstructive/rest_demo/
 │
@@ -49,27 +46,27 @@ src/main/java/com/thinkconstructive/rest_demo/
     └── CloudAPIService.java        → REST Controller (CRUD)
 </pre>
 
-<h2 id="howitworks">⚙️ How It Works</h2>
+<h2 id="howitworks"> How It Works</h2>
 
-<h3>1️⃣ RestDemoApplication.java</h3>
+<h3> RestDemoApplication.java</h3>
 <p>
 Starts Spring Boot using <b>SpringApplication.run()</b>, enables auto-configuration and component scanning,
 and launches the embedded Tomcat server on port <b>8080</b>.
 </p>
 
-<h3>2️⃣ CloudVendor.java</h3>
+<h3> CloudVendor.java</h3>
 <p>
 A POJO representing cloud vendor details. Used as the request/response body for JSON.
 </p>
 
-<h3>3️⃣ CloudAPIService.java</h3>
+<h3> CloudAPIService.java</h3>
 <p>
 A REST Controller handling all CRUD endpoints using an in-memory <b>HashMap</b> as storage.
 </p>
 
 <hr>
 
-<h2 id="running">▶️ Running the Application</h2>
+<h2 id="running"> Running the Application</h2>
 <ol>
   <li>Open the project in IntelliJ or Eclipse</li>
   <li>Run <b>RestDemoApplication</b></li>
@@ -80,7 +77,7 @@ A REST Controller handling all CRUD endpoints using an in-memory <b>HashMap</b> 
 
 <hr>
 
-<h2 id="api">📡 API Endpoints</h2>
+<h2 id="api"> API Endpoints</h2>
 
 <h3><b>1. Create Vendor</b> – POST</h3>
 <pre>POST /cloudvendor</pre>
@@ -99,7 +96,7 @@ A REST Controller handling all CRUD endpoints using an in-memory <b>HashMap</b> 
 
 <hr>
 
-<h2 id="json">🧪 Sample JSON</h2>
+<h2 id="json"> Sample JSON</h2>
 <pre>
 {
   "vendorId": "v1",
@@ -111,7 +108,7 @@ A REST Controller handling all CRUD endpoints using an in-memory <b>HashMap</b> 
 
 <hr>
 
-<h2 id="postman">🧭 Testing in Postman</h2>
+<h2 id="postman"> Testing in Postman</h2>
 <ol>
   <li>Open Postman</li>
   <li>Send requests to:
@@ -122,7 +119,7 @@ A REST Controller handling all CRUD endpoints using an in-memory <b>HashMap</b> 
 
 <hr>
 
-<h2 id="future">🔮 Future Improvements</h2>
+<h2 id="future"> Future Improvements</h2>
 <ul>
   <li>Add a Service Layer</li>
   <li>Use a Database (H2/MySQL) with Spring Data JPA</li>
@@ -133,3 +130,7 @@ A REST Controller handling all CRUD endpoints using an in-memory <b>HashMap</b> 
 
 <hr>
 <p><b>✔ This README is formatted for professional portfolios, GitHub projects, and interviews.</b></p>
+
+
+<h2>Author</h2>
+<p><b>Sahil Mayekar</b></p>
